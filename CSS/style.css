@@ -8,20 +8,22 @@
     display: flex;
     justify-content: space-between;
 }
-.Logo-principal {
+
+.header-caja1_logo-principal {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: sans-serif;
 }
-.principal-nav {
+
+.header-caja2 {
     display: flex;
     gap: 30px;
-    
+    align-items: center;
 }
-.principal-nav__list {
+
+.header-caja2_principal-nav-list {
     list-style: none;
     display: flex;
-    align-items: center;
     gap: 20px;
     margin: 0%;
     padding: 0%;
@@ -29,7 +31,7 @@
     font-size: 1rem;
 }
 
-.button-contacto {
+.header-caja2_button-contacto {
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
     font-weight: 100;
