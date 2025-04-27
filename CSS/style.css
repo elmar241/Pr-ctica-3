@@ -46,7 +46,7 @@ a {
     color: black;
 }
 
-/*Este es el código vinculado al main*/
+/*Este es el código vinculado al main - section class="main--description-product*/
 
 .main {
      padding-left: 10rem;
@@ -76,7 +76,7 @@ a {
 .main--description-product__text-product-price {
     display: flex;
     gap: 25px;
-    padding: 15px 0px 20px 0px;
+    padding: 15px 0px 40px 0px;
     align-items: center;
 }
 
@@ -94,3 +94,33 @@ a {
     font-weight: 100;  
     border-color: rgb(8, 8, 152);
 }
+.main--description-product__text-product-specifications{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.main--description-product__text-product-specifications-1  {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+.main--description-product__text-product-specifications-2  {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+.main--description-product__text-product-specifications-3  {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.main--description-product__text-product-specifications-icon{
+    width: 30px;
+}
+.main--description-product__text-product-specifications-icon-2{
+    width: 30px;
+}
+
+/*Este es el código vinculado al main - section class="main--relacioned-product*/
+
