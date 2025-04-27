@@ -51,6 +51,7 @@ a {
 .main {
      padding-left: 10rem;
     padding-right: 10rem;
+    font-family: sans-serif;
 }
 
 .main--description-product {
@@ -58,6 +59,20 @@ a {
     display: flex;
     gap: 2.5rem;
     font-family: sans-serif;
+}
+
+.main--description-product__image-product{
+    position: relative;
+}
+
+.main--description-product__image-product-gb {
+    display: inline-block;
+    padding: 1rem;
+    background: rgb(64, 218, 64);
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
 .main--description-product__text-product-principal-offer {
