@@ -105,9 +105,8 @@ a {
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
-    border-bottom: 1px solid;
+    border: 1px solid  rgb(8, 8, 152);
     font-weight: 100;  
-    border-color: rgb(8, 8, 152);
 }
 .main--description-product__text-product-specifications{
     display: flex;
@@ -152,6 +151,10 @@ a {
     border: 1px solid rgb(221, 218, 218);
     padding: 15px;
     border-radius: 8px;
+    Flex-basis:25%;
+}
+.image {
+    width: 100%;
 }
 h3 {
     font-size: 1.3rem;
@@ -219,9 +222,8 @@ h3 {
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
-    border-bottom: 1px solid;
+    border: 1px solid rgb(8, 8, 152);
     font-weight: 100;  
-    border-color: rgb(8, 8, 152);
     font-size: 0.8rem;
 }
 
