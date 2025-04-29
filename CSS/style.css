@@ -96,7 +96,7 @@ a {
 }
 
 .main--description-product__text-product-price-number {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
@@ -181,15 +181,16 @@ h3 {
 .main--form-contact {
     display: grid;
     grid-template-areas: 
-    'main--form-contact_text main--form-contact_text main--form-contact_form';
-    background-color: rgb(211, 236, 249);
-    padding: 50px 80px 50px 80px;
-    gap: 50px;
+    'main--form-contact_text main--form-contact_text main--form-contact_text  main--form-contact_form';
+    background-color: #eef5fe;
+    padding: 30px 80px 50px 80px;
+    gap: 20px;
+    margin-bottom:50px;
 }
 
 .main--form-contact_text {
     grid-area: main--form-contact_text;
-    padding: 0 80px 0 0;
+    padding: 0 100px 0 0;
 }
 
 .main--form-contact_form{
@@ -201,7 +202,6 @@ h3 {
 }
 
 .main--form-contact_form-raffle{
-    font-size: 1.3rem;
     padding: 40px 0 0 0;
 
 }
@@ -210,13 +210,8 @@ h3 {
     flex-direction: column;
     gap: 5px; 
     margin-bottom: 15px;
-}
-.main--form-contact_form-raffle-2{
-    display: flex;
-    flex-direction: column;
-    gap: 5px; 
-    margin-bottom: 15px;
-
+    color: rgb(40, 39, 39);
+    font-size: 1.3rem;
 }
 
 .main--form-contact_form-raffle-button {
@@ -227,6 +222,32 @@ h3 {
     border-bottom: 1px solid;
     font-weight: 100;  
     border-color: rgb(8, 8, 152);
+    font-size: 0.8rem;
+}
+
+.main--form-contact_form-raffle-1-input {
+    padding: 8px 8px 8px 16px;
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 8px;
+}
+
+.main--form-contact_form-raffle-1-input::placeholder {
     font-size: 1rem;
 }
 
+/*Este es el código vinculado al footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(221, 218, 218);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-family: sans-serif;
+
+}
+
+.copyraight{
+    font-weight: 600;
+    padding: 10px;
+}
