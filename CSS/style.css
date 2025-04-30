@@ -105,9 +105,7 @@ a {
         gap: 20px;
         display:flex;
         flex-grow: 50%;
-
     }
-    
     }
 
 .main--description-product {
@@ -233,6 +231,7 @@ h3 {
     }
     .main--relacioned-product_articles {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         gap: 25px;
         padding-bottom: 50px;
