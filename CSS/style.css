@@ -326,6 +326,18 @@ h3 {
     font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+    .main--form-contact{
+        display: grid;
+        .grid-layout {
+            grid-template-areas:
+              "main--form-contact_text"
+              "main--form-contact_form";
+            grid-template-columns: 1fr;
+          }
+    }
+}
+
 /*Este es el código vinculado al footer*/
 
 .footer{
